@@ -6,8 +6,11 @@
 body{
     font-family: "Open Sans", serif;
 }
-header{
-    margin-top:30px ;
+/* .secondary-bg{
+    background-color: #FFF8F3;
+} */
+.text-center{
+    text-align: center;
 }
 .dark-2{
    color: #474747; 
@@ -18,6 +21,7 @@ header{
     /* background-size: cover; */
     background-position: top left, bottom right;
     object-fit: cover;
+    margin-left: 30px;
 }
 /* nav style */
 .navbar{
@@ -63,13 +67,159 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 35px 0 230px;
+    margin: 0 35px 0 200px;
 }
 .banner-content{
     margin-left: 30px;
     width: 585px;
     height: 356px;
 }
-.header{
+.section-title{
+    font-size: 35px;
+    font-weight:bold ;
+    color: 181818;
+}
+.section-des{
+    color: #757575;
+    font-size: 18px;
 
 }
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.about-items{
+    display: flex;
+    /* text-align: center; */
+    /* gap: 20px; */
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.item-des{
+    font-weight: bold;
+}
+
+.skills-container{
+    display: flex;
+    gap: 20px;
+
+}
+.skill{
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+.skill-title{
+    margin: 10px;
+}
+.skill-des{
+  margin: 20px;
+  text-align: center;
+}
+.section-title-1{
+    margin: 50px;
+}
+.section-des-1{
+    margin: 50px;
+}
+.resume{
+    margin: 10px;
+    padding: 20px;
+}
+.resume-title-1{
+    margin: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.rsume-container{
+    display: flex;
+    margin: 30px;
+}
+.education-box,.exper-box{
+    /* margin: 20px; */
+    margin: 40px 5px 40px 0px;
+}
+.resume-title{
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+h5{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px 5px 5px 0px;
+}
+h6{
+    margin: 5px 5px 5px 0px;
+     
+}
+.edu-des{
+    color: #757575;
+    margin: 25px 5px 25px 0px;
+   
+}
+.last{
+    text-align: center;
+    margin: 40px;
+}
+.fotter-container{
+    display: flex;
+    background-color: #FFF8F3;
+   justify-content: space-between;
+}
+.contact, .message{
+    
+    padding: 10px;
+    margin-right: 60px;
+
+}
+.con{
+   margin-left: 30px;
+   margin-bottom: 50px;
+   margin-right: 0px;
+   margin-top: 50px;
+   padding-left: ;
+}
+.dess{
+font-size: 15px;
+
+}
+.ss{
+    margin: 100px 10px 100px 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+/* .form,input[type="text"]{
+    margin: 30px;
+    padding: 40px;
+    height: 64px;
+} */
+ .name{
+    height: 50px;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    
+ }
+ textarea{
+    width: 450px;
+    height: 170px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+ }
+ .tt{
+  margin: 30px;
+ }
